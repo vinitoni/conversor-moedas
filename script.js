@@ -3,7 +3,7 @@ function ConverterParaReal() {
   var valor = valorElemento.value;
   var valorEmDolarNumerico = parseFloat(valor);
 
-  var valorEmReal = valorEmDolarNumerico * 5;
+  var valorEmReal = valorEmDolarNumerico * 5.43;
   console.log(valorEmReal);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
@@ -15,7 +15,7 @@ function ConverterParaEuro() {
   var valor = valorElemento.value;
   var valorEmEuroNumerico = parseFloat(valor);
 
-  var valorEmRealEuro = valorEmEuroNumerico * 6;
+  var valorEmRealEuro = valorEmEuroNumerico * 6.34;
   console.log(valorEmRealEuro);
 
   var elementoValorConvertido = document.getElementById("valorConvertido");
